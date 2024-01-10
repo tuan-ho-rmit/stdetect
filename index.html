@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STDetect</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/logo.png" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <div style="width: 120px; height: 100px">
+        <img src="assets/logo.png" alt="" srcset="" />
+      </div>
+      <div class="menu">
+        <div class="menu-item" onclick="scrollToSection('about-us')">
+          <a>About us</a>
+        </div>
+        <div class="menu-item" onclick="scrollToSection('overview')">
+          <a>Overview</a>
+        </div>
+        <div class="menu-item" onclick="scrollToSection('mission-vision')">
+          <a>Mission & Vision</a>
+        </div>
+        <div class="menu-item" onclick="scrollToSection('recruitment')">
+          <a>Recruitment</a>
+        </div>
+      </div>
+    </header>
+
+    <div
+      class="container"
+      id="introduction"
+      style="justify-content: space-between"
+    >
+      <div
+        class=""
+        style="
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 16px;
+        "
+      >
+        <h1 style="color: #365486; font-size: 48px">STDetect</h1>
+        <p style="color: #365486; font-size: 24px; font-weight: 500">
+          AI-Powered STDs Detection App
+        </p>
+        <h1>IT Gremlins</h1>
+        <h1>COSC2083 – Essential of IT</h1>
+        <button onclick="scrollToSection('about-us')">Explore</button>
+      </div>
+      <div style="width: 400px; height: 400px">
+        <img src="assets/overview.png" alt="" srcset="" />
+      </div>
+    </div>
+
+    <div
+      class="container"
+      id="about-us"
+      style="
+        display: flex;
+        flex-direction: column;
+        background-color: #7fc7d9;
+        min-height: 300px;
+      "
+    >
+      <div class="title">
+        <h4>About us</h4>
+      </div>
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          padding-top: 40px;
+          justify-content: center;
+          gap: 16px;
+          min-height: 300px;
+          width: 100%;
+        "
+      >
+        <div class="item" id="personal">
+          <div>
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.1601 10.87C12.0601 10.86 11.9401 10.86 11.8301 10.87C9.45006 10.79 7.56006 8.84 7.56006 6.44C7.56006 3.99 9.54006 2 12.0001 2C14.4501 2 16.4401 3.99 16.4401 6.44C16.4301 8.84 14.5401 10.79 12.1601 10.87Z"
+                stroke="#365486"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M7.15997 14.56C4.73997 16.18 4.73997 18.82 7.15997 20.43C9.90997 22.27 14.42 22.27 17.17 20.43C19.59 18.81 19.59 16.17 17.17 14.56C14.43 12.73 9.91997 12.73 7.15997 14.56Z"
+                stroke="#365486"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+
+          <div>
+            <h4 style="margin: 0">Tran Minh Triet</h4>
+          </div>
+
+          <div>
+            <p style="margin: 0; font-size: 14px">s3979253@rmit.edu.vn</p>
+          </div>
+
+          <div>
+            <p style="margin: 0; font-size: 14px">
+              Major in Software Engineering
+            </p>
+          </div>
+          <div>
+            <p style="margin: 0; font-size: 14px">Second-year Student</p>
+          </div>
+          <div>
+            <p style="margin: 0; font-size: 14px">RMIT University</p>
+          </div>
+        </div>
+
+        <div class="item" id="personal">
+          <div>
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.1601 10.87C12.0601 10.86 11.9401 10.86 11.8301 10.87C9.45006 10.79 7.56006 8.84 7.56006 6.44C7.56006 3.99 9.54006 2 12.0001 2C14.4501 2 16.4401 3.99 16.4401 6.44C16.4301 8.84 14.5401 10.79 12.1601 10.87Z"
+                stroke="#365486"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M7.15997 14.56C4.73997 16.18 4.73997 18.82 7.15997 20.43C9.90997 22.27 14.42 22.27 17.17 20.43C19.59 18.81 19.59 16.17 17.17 14.56C14.43 12.73 9.91997 12.73 7.15997 14.56Z"
+                stroke="#365486"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+
+          <div>
+            <h4 style="margin: 0">Le Thai Viet Minh</h4>
+          </div>
+          <div>
+            <p style="margin: 0; font-size: 14px">s4041151@rmit.edu.vn</p>
+          </div>
+          <div>
+            <p style="margin: 0; font-size: 14px">
+              Major in Information Technology
+            </p>
+          </div>
+          <div>
+            <p style="margin: 0; font-size: 14px">First-year Student</p>
+          </div>
+          <div>
+            <p style="margin: 0; font-size: 14px">RMIT University</p>
+          </div>
+        </div>
+        <div class="item" id="personal">
+          <div>
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.1601 10.87C12.0601 10.86 11.9401 10.86 11.8301 10.87C9.45006 10.79 7.56006 8.84 7.56006 6.44C7.56006 3.99 9.54006 2 12.0001 2C14.4501 2 16.4401 3.99 16.4401 6.44C16.4301 8.84 14.5401 10.79 12.1601 10.87Z"
+                stroke="#365486"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M7.15997 14.56C4.73997 16.18 4.73997 18.82 7.15997 20.43C9.90997 22.27 14.42 22.27 17.17 20.43C19.59 18.81 19.59 16.17 17.17 14.56C14.43 12.73 9.91997 12.73 7.15997 14.56Z"
+                stroke="#365486"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+
+          <div>
+            <h4 style="margin: 0">Tran Phan Hoang Phuc</h4>
+          </div>
+          <div>
+            <p style="margin: 0; font-size: 14px">s3929597@rmit.edu.vn</p>
+          </div>
+          <div>
+            <p style="margin: 0; font-size: 14px">
+              Major in Software Engineering
+            </p>
+          </div>
+          <div>
+            <p style="margin: 0; font-size: 14px">Second-year Student</p>
+          </div>
+          <div>
+            <p style="margin: 0; font-size: 14px">RMIT University</p>
+          </div>
+        </div>
+        <div class="item" id="personal">
+          <div>
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.1601 10.87C12.0601 10.86 11.9401 10.86 11.8301 10.87C9.45006 10.79 7.56006 8.84 7.56006 6.44C7.56006 3.99 9.54006 2 12.0001 2C14.4501 2 16.4401 3.99 16.4401 6.44C16.4301 8.84 14.5401 10.79 12.1601 10.87Z"
+                stroke="#365486"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M7.15997 14.56C4.73997 16.18 4.73997 18.82 7.15997 20.43C9.90997 22.27 14.42 22.27 17.17 20.43C19.59 18.81 19.59 16.17 17.17 14.56C14.43 12.73 9.91997 12.73 7.15997 14.56Z"
+                stroke="#365486"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+
+          <div>
+            <h4 style="margin: 0">Ho Tuan</h4>
+          </div>
+          <div>
+            <p style="margin: 0; font-size: 14px">s4019549@rmit.edu.vn</p>
+          </div>
+          <div>
+            <p style="margin: 0; font-size: 14px">
+              Major in Information Technology
+            </p>
+          </div>
+          <div>
+            <p style="margin: 0; font-size: 14px">First-year Student</p>
+          </div>
+          <div>
+            <p style="margin: 0; font-size: 14px">RMIT University</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container"
+      id="overview"
+      style="
+        background-color: #0f1035;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        min-height: 500px;
+      "
+    >
+      <div class="title" style="color: #fff; border-bottom: 1px solid #fff">
+        <h4>Overview</h4>
+      </div>
+
+      <div class="overview-section">
+        <div class="overview-item">
+          <div>
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20 11H4C3.44772 11 3 11.4477 3 12V21C3 21.5523 3.44772 22 4 22H20C20.5523 22 21 21.5523 21 21V12C21 11.4477 20.5523 11 20 11Z"
+                stroke="white"
+                stroke-width="2"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M7 11V7C7 4.23857 9.2386 2 12 2C14.7614 2 17 4.23857 17 7V11"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M12 15V18"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div>
+            <p style="font-size: 16px; font-weight: 700">Security</p>
+          </div>
+          <div>
+            <p style="font-size: 14px; font-weight: 400">
+              Robust security measures to ensure that submitted photographs
+              remain confidential.
+            </p>
+          </div>
+        </div>
+        <div class="overview-item">
+          <div>
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M12 18.5V22"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M18 12H22"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M2 12H5.5"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M12 5.5V2"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div>
+            <p style="font-size: 16px; font-weight: 700">Accuracy</p>
+          </div>
+          <div>
+            <p style="font-size: 14px; font-weight: 400">
+              Utilizing state-of-the-art image recognition algorithms to ensure
+              accurate detection of visual clues.
+            </p>
+          </div>
+        </div>
+        <div class="overview-item">
+          <div>
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 22C14.7614 22 17.2614 20.8807 19.0711 19.0711C20.8807 17.2614 22 14.7614 22 12C22 9.2386 20.8807 6.7386 19.0711 4.92893C17.2614 3.11929 14.7614 2 12 2C9.2386 2 6.7386 3.11929 4.92893 4.92893C3.11929 6.7386 2 9.2386 2 12C2 14.7614 3.11929 17.2614 4.92893 19.0711C6.7386 20.8807 9.2386 22 12 22Z"
+                stroke="white"
+                stroke-width="2"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M8 12L11 15L17 9"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div>
+            <p style="font-size: 16px; font-weight: 700">Convenience</p>
+          </div>
+          <div>
+            <p style="font-size: 14px; font-weight: 400">
+              Our application is designed for efficiency, offering users rapid
+              and reliable results.
+            </p>
+          </div>
+        </div>
+        <div class="overview-item">
+          <div>
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.5 4C4.46244 4 2 6.46245 2 9.5C2 15 8.5 20 12 21.1631C15.5 20 22 15 22 9.5C22 6.46245 19.5375 4 16.5 4C14.6398 4 12.9953 4.92345 12 6.3369C11.0047 4.92345 9.36015 4 7.5 4Z"
+                fill="white"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div>
+            <p style="font-size: 16px; font-weight: 700">Reliability</p>
+          </div>
+          <div>
+            <p style="font-size: 14px; font-weight: 400">
+              Ensuring a seamless experience, promoting accessibility and
+              understanding for individuals seeking confidential and accurate
+              STD detection.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container"
+      id="mission-vision"
+      style="
+        display: flex;
+        flex-direction: column;
+        background-color: #7fc7d9;
+        min-height: 300px;
+        gap: 40px;
+      "
+    >
+      <div class="title">
+        <h4>Mission & Vision</h4>
+      </div>
+      <div class="mission-container">
+        <div
+          style="
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            border-bottom: 1px solid #365486;
+            width: 100%;
+          "
+        >
+          <h4>Mission</h4>
+        </div>
+        <div class="mission">
+          <div>
+            <img src="assets/mission.png" style="width: 200px; height: 200px" />
+          </div>
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <p style="font-size: 20px">
+              <strong>Unleash Your Inner Self:</strong> Our easy-to-use system
+              enables you to take a step ahead in monitoring, identifying and
+              combating STDs. No longer blind searches, just clear insight and
+              informed decisions for a healthy confident sex life.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vision-container">
+        <div
+          style="
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            border-bottom: 1px solid #365486;
+            width: 100%;
+          "
+        >
+          <h4>Vision</h4>
+        </div>
+        <div class="vision">
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <p style="font-size: 20px">
+              <strong>Beyond opacity:</strong> For our world, we imagine a
+              future “where STD stands for Sexual Health Detective; where
+              prevention and open dialogue are the first priorities.” No more
+              stigma, just empowered communities flourishing with knowledge and
+              responsibility.
+            </p>
+          </div>
+          <div>
+            <img src="assets/vision.png" style="width: 200px; height: 200px" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container"
+      id="recruitment"
+      style="
+        display: flex;
+        flex-direction: column;
+        background-color: #dcf2f1;
+        min-height: 300px;
+        gap: 40px;
+      "
+    >
+      <div class="title">
+        <h4>Recruitment</h4>
+      </div>
+      <div class="recruitment-container">
+        <div class="recruitment-item">
+          <div class="desc">
+            <h3 style="font-size: 18px; color: #365486">
+              Senior Product Owner
+            </h3>
+            <p style="font-size: 14px; color: #757575">
+              Ho Chi Minh City • 4 weeks ago
+            </p>
+          </div>
+          <div
+            class="apply-btn"
+            style="
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-end;
+            "
+          >
+            <button>Apply</button>
+          </div>
+        </div>
+        <div class="recruitment-item">
+          <div class="desc">
+            <h3 style="font-size: 18px; color: #365486">Solution Architect</h3>
+            <p style="font-size: 14px; color: #757575">
+              Ho Chi Minh City • 2 weeks ago
+            </p>
+          </div>
+          <div
+            class="apply-btn"
+            style="
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-end;
+            "
+          >
+            <button>Apply</button>
+          </div>
+        </div>
+        <div class="recruitment-item">
+          <div class="desc">
+            <h3 style="font-size: 18px; color: #365486">Senior AI Engineer</h3>
+            <p style="font-size: 14px; color: #757575">
+              Ho Chi Minh City • 3 weeks ago
+            </p>
+          </div>
+          <div
+            class="apply-btn"
+            style="
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-end;
+            "
+          >
+            <button>Apply</button>
+          </div>
+        </div>
+        <div class="recruitment-item">
+          <div class="desc">
+            <h3 style="font-size: 18px; color: #365486">
+              Senior Full-stack Developer
+            </h3>
+            <p style="font-size: 14px; color: #757575">
+              Ho Chi Minh City • 4 weeks ago
+            </p>
+          </div>
+          <div
+            class="apply-btn"
+            style="
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-end;
+            "
+          >
+            <button>Apply</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
